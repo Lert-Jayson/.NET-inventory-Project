@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9C704B3-23FF-47ED-8690-DDD96442CC37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>InventorySample.My.MyApplication</StartupObject>
+    <RootNamespace>InventorySample</RootNamespace>
+    <AssemblyName>InventorySample</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>InventorySample.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>InventorySample.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Chrome Download\MySql.Data\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AddIn">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.AddIn.Contract">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.Services">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Data.SqlXml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel.Selectors">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IO.Log">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Printing">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Speech">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.DynamicData.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Entity.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.RegularExpressions" />
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.WorkflowServices">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_customer.Designer.vb">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_home.Designer.vb">
+      <DependentUpon>frm_home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_inbound.Designer.vb">
+      <DependentUpon>frm_inbound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inbound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_loadscreen.Designer.vb">
+      <DependentUpon>frm_loadscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_loadscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.Designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_manageuser.Designer.vb">
+      <DependentUpon>frm_manageuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_manageuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_outbound.Designer.vb">
+      <DependentUpon>frm_outbound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_outbound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_printStock.Designer.vb">
+      <DependentUpon>frm_printStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_printStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_products.Designer.vb">
+      <DependentUpon>frm_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_stock.Designer.vb">
+      <DependentUpon>frm_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inbound\frm_printinbound.Designer.vb">
+      <DependentUpon>frm_printinbound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inbound\frm_printinbound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inbound\inbound_ds.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inbound_ds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inbound\inbound_rpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inbound_rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mod_connection.vb" />
+    <Compile Include="mod_publicVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="outbound\ds_outbound.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_outbound.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="outbound\ds_outbound.vb">
+      <DependentUpon>ds_outbound.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="outbound\frm_printoutbound.Designer.vb">
+      <DependentUpon>frm_printoutbound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="outbound\frm_printoutbound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="outbound\outbound_rpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>outbound_rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Products\frm_group.Designer.vb">
+      <DependentUpon>frm_group.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Products\frm_group.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\frm_uom.Designer.vb">
+      <DependentUpon>frm_uom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Products\frm_uom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoundButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="stockDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stockDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stockDs.vb">
+      <DependentUpon>stockDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Stock\frm_addstock.Designer.vb">
+      <DependentUpon>frm_addstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stock\frm_addstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_customer.resx">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_home.resx">
+      <DependentUpon>frm_home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inbound.resx">
+      <DependentUpon>frm_inbound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_loadscreen.resx">
+      <DependentUpon>frm_loadscreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_manageuser.resx">
+      <DependentUpon>frm_manageuser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_outbound.resx">
+      <DependentUpon>frm_outbound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_printStock.resx">
+      <DependentUpon>frm_printStock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_products.resx">
+      <DependentUpon>frm_products.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_stock.resx">
+      <DependentUpon>frm_stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inbound\frm_printinbound.resx">
+      <DependentUpon>frm_printinbound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inbound\inbound_rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>inbound_rpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="outbound\frm_printoutbound.resx">
+      <DependentUpon>frm_printoutbound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="outbound\outbound_rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>outbound_rpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\frm_group.resx">
+      <DependentUpon>frm_group.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\frm_uom.resx">
+      <DependentUpon>frm_uom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frm_addstock.resx">
+      <DependentUpon>frm_addstock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>stock_report.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d5b04cc3dcd8c17702549ebc5f1acf1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2835657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\610c2cd2e194a9635d9cf328_hero-inventory valuation methods.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Managing-inventory-intelligently.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1166880542-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\inventory-icon-png-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inbound\inbound_ds.xsc">
+      <DependentUpon>inbound_ds.xsd</DependentUpon>
+    </None>
+    <None Include="inbound\inbound_ds.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inbound_ds.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="inbound\inbound_ds.xss">
+      <DependentUpon>inbound_ds.xsd</DependentUpon>
+    </None>
+    <None Include="outbound\ds_outbound.xsc">
+      <DependentUpon>ds_outbound.xsd</DependentUpon>
+    </None>
+    <None Include="outbound\ds_outbound.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_outbound.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="outbound\ds_outbound.xss">
+      <DependentUpon>ds_outbound.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\0_c2lAlCKN721_oFYo.gif" />
+    <None Include="stockDs.xsc">
+      <DependentUpon>stockDs.xsd</DependentUpon>
+    </None>
+    <None Include="stockDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stockDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="stockDs.xss">
+      <DependentUpon>stockDs.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productsicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productsiicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\283655001_1212774319532576_3484356364088127732_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\284230647_755279132160931_3184538705111345635_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\284606739_544000350722859_6466199320314739877_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285194879_485702423357197_5857795355656341133_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287323758_526645515918416_5866577058563273420_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\286996311_369707855048562_4211644717428734689_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285542725_506663994541582_4938205829804285708_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\281354233_1217761045703395_6220257735197044251_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\286439043_396229652543072_5641104355142679605_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287267697_705814747156017_3981998656581145447_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285131826_429087642141727_2292646649392406770_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\259244933_6719550251418607_4170930654244499784_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\277105611_3083367841925090_4463837430406016997_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287843202_2640841286051382_4737913263824895662_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\283632755_1052049865682766_5229883376038495776_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e8b9-1ligtipzipzgdnalyvntkoa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d4d12027c61fb128bc2c488fb8ab163.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance %281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

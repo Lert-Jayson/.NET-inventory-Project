@@ -1,0 +1,165 @@
+D:\VS projects\frm_main\InventorySample\bin\Debug\InventorySample.exe
+D:\VS projects\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+D:\VS projects\frm_main\InventorySample\bin\Debug\InventorySample.xml
+D:\VS projects\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.exe
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.xml
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+D:\VS projects\frm_main\InventorySample\bin\Debug\MySql.Data.DLL
+D:\VS projects\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.exe
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.xml
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+E:\VS Project\frm_main\InventorySample\bin\Debug\InventorySample.exe
+E:\VS Project\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+E:\VS Project\frm_main\InventorySample\bin\Debug\InventorySample.xml
+E:\VS Project\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+E:\VS Project\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+E:\VS Project\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+D:\VS projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe
+D:\VS projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+D:\VS projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.xml
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_loadscreen.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printStock.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printinbound.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printoutbound.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.exe
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.xml
+D:\VS projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+D:\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.exe
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.xml
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+D:\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe
+D:\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+D:\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.xml
+D:\updated inventory\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_loadscreen.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printStock.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printinbound.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printoutbound.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+D:\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.exe
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.xml
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.xml
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_loadscreen.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printStock.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printinbound.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printoutbound.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+D:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.exe
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.xml
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.xml
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_loadscreen.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printStock.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printinbound.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printoutbound.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+E:\galing sa isang laptop\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe.config
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.exe
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.xml
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.pdb
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.exe
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.pdb
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\bin\Debug\InventorySample.xml
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_customer.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_home.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_inbound.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_loadscreen.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_login.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_main.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_manageuser.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_outbound.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printStock.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_products.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_stock.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printinbound.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.Resources.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_printoutbound.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_group.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_uom.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.frm_addstock.resources
+C:\Users\User\Desktop\Projects\updated inventory\frm_main\InventorySample\obj\Debug\InventorySample.vbproj.GenerateResource.Cache
